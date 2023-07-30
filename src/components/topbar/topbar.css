@@ -86,6 +86,7 @@ font-size: 12px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    object-fit: cover;
     /* this helps get the image off the general margin */
     margin-right: 15px;
     cursor: pointer;
