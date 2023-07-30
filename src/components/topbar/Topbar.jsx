@@ -25,7 +25,7 @@ export default function Topbar(){
                 <PersonIcon/><span className="topbarIconBadge">1</span>
             </div>
             <div className="topbarIcons">
-                <ChatIcon/><span className="topbarIconBadge">1</span>
+                <ChatIcon/><span className="topbarIconBadge">3</span>
             </div>
             <div className="topbarIcons">
                 <NotificationsIcon/><span className="topbarIconBadge">1</span>

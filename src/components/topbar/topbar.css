@@ -67,7 +67,13 @@ margin-left: 10px;
 width: 15px;
 height: 15px;
 background-color: red;
-border-radius: 40%;
+border-radius: 50%;
+position: absolute;
+bottom:15px;
+left: 15px;
+display: flex;
+align-items: center;
+font-size: 12px;
 
 
 }
@@ -79,4 +85,8 @@ border-radius: 40%;
 .topbarImage{
     width: 32px;
     height: 32px;
+    border-radius: 50%;
+    /* this helps get the image off the general margin */
+    margin-right: 15px;
+    cursor: pointer;
 }
