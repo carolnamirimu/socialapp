@@ -10,8 +10,9 @@ export default function Topbar(){
           <div className="topbarLeft">
             <span className="logo">Lamasocial</span>
           </div>
-          <div className="topbarCenter"> <div className="searchBar"><SearchIcon/>
-          <input type="text" placeholder="Search for friends, post or video" />
+          <div className="topbarCenter"> <div className="searchBar"><span className="searchIcon"><SearchIcon/>
+            </span>
+          <input className="searchInput" type="text" placeholder="Search for friends, post or video" />
           </div>
           </div>
           <div className="topbarRight">
@@ -19,6 +20,7 @@ export default function Topbar(){
                 <span className="topbarlinks">Homepage</span>
                 <span className="topbarlinks">Timeline</span> 
             </div>
+            <div className="topbaritems">
             <div className="topbarIcons">
                 <PersonIcon/><span className="topbarIconBadge">1</span>
             </div>
@@ -28,7 +30,7 @@ export default function Topbar(){
             <div className="topbarIcons">
                 <NotificationsIcon/><span className="topbarIconBadge">1</span>
             </div>
-          
+            </div>
           <img src="/assets/1.jpeg" alt="" className="topbarImage"/>
           </div>
         </div>

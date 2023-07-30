@@ -31,10 +31,50 @@ height: 30px;
 background-color: white;
 border-radius: 30px;
 }
-
+.searchIcon{
+font-size: 25px!important;
+margin-left: 10px;
+}
+.searchInput{
+    border: none;
+    width: 70%;
+  
+}
+.searchInput:focus{
+    outline: none;
+}
 .topbarRight{
     flex: 4;
+    color: aliceblue;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 
+}
+.topbaritems{
+    display: flex;
+    justify-content: space-between;
+
+}
+.topbarIcons{
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+
+}
+.topbarIconBadge{
+width: 15px;
+height: 15px;
+background-color: red;
+border-radius: 40%;
+
+
+}
+.topbarlinks{
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
 }
 .topbarImage{
     width: 32px;
