@@ -8,7 +8,7 @@ export default function Topbar(){
         <div className="topbarContainer">
           
           <div className="topbarLeft">
-            <span className="logo">Lamasocial</span>
+            <span className="logo">larosocial</span>
           </div>
           <div className="topbarCenter"> <div className="searchBar"><span className="searchIcon"><SearchIcon/>
             </span>
